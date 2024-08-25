@@ -1,0 +1,7 @@
+name: WeatherControl
+version: 1.0
+main: pl.guimpl.weathercontrol.Weathercontrol
+commands:
+  pogoda:
+    description: Kontroluje pogodę
+    usage: /pogoda <typ>

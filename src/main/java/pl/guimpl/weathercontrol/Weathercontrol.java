@@ -9,7 +9,6 @@ public class Weathercontrol extends JavaPlugin {
     public void onEnable() {
         getLogger().info("WeatherControl został włączony!");
         this.getCommand("pogoda").setExecutor(new WeatherCommand(this));
-        // Rejestracja innych komend i nasłuchiwaczy
     }
 
     @Override

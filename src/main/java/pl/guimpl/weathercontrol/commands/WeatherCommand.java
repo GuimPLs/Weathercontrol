@@ -25,7 +25,7 @@ public class WeatherCommand implements CommandExecutor {
                         player.sendMessage("Pogoda została ustawiona na słoneczną.");
                         break;
                     case "deszcz":
-                        player.getWorld().setWeatherDuration(10000); // czas trwania w tickach
+                        player.getWorld().setWeatherDuration(10000); 
                         player.getWorld().setStorm(true);
                         player.sendMessage("Pogoda została ustawiona na deszczową.");
                         break;
